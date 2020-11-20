@@ -1,6 +1,6 @@
 # 概述
 
-Redis(Remote Dictionary Server)
+Redis(<span style="color:red">Re</span>mote <span style="color:red">Di</span>ctionary <span style="color:red">S</span>erver)
 
 
 
@@ -250,6 +250,7 @@ Redis Stream 主要用于消息队列（MQ，Message Queue），Redis 本身是�
 Redis Stream 的结构如下所示，它有一个消息链表，将所有加入的消息都串起来，每个消息都有一个唯一的 ID 和对应的内容：
 
 ![img](../image/en-us_image_0167982791.png)
+
 
 每个 Stream 都有唯一的名称，它就是 Redis 的 key，在我们首次使用 xadd 指令追加消息时自动创建。
 
