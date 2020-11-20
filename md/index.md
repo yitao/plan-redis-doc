@@ -1,6 +1,6 @@
 # 概述
 
-Redis(<span style="color:red">Re</span>mote <span style="color:red">Di</span>ctionary <span style="color:red">S</span>erver)
+Redis(<font color="red">Re</font>mote <span style="color:red">Di</span>ctionary <span style="color:red">S</span>erver)
 
 
 
